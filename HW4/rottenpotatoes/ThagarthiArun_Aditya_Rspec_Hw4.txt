@@ -1,0 +1,33 @@
+
+Movie
+  Checks for director field
+    Return director with multiple movies
+    Return director with only one movie
+    When there are no directors return null
+
+MoviesController
+  Index
+    should display movie list correctly
+  Destroy
+    should delete movie
+  Create
+    should create a new movies
+  update
+    should update a movie
+
+DirectorsController
+  Directors Page
+    If there are movies by a director
+    Should redirect to movie list if there are no movies by the director
+
+MoviesHelper
+  Checks if odd or even
+    check if even
+    check if odd
+
+2 deprecation warnings total
+
+Finished in 0.36816 seconds (files took 1.6 seconds to load)
+11 examples, 0 failures
+
+Coverage report generated for Cucumber Features, RSpec to /home/ec2-user/environment/Assignments/hw-acceptance-unit-test-cycle/rottenpotatoes/coverage. 48 / 48 LOC (100.0%) covered.
